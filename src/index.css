@@ -10,3 +10,17 @@
 .item{
     background-color:rgba(0, 0, 0, 0.31);
 }
+
+@media screen and (max-width:500px) {
+         .Gogreen{
+              display: none;
+         }
+}
+@media screen and (max-width:360px) {
+        .daewoo{
+               margin: auto;
+        }
+        .suthra{
+               margin: auto;
+        }
+}
