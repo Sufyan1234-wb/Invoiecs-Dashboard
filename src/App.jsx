@@ -81,7 +81,7 @@ const SummaryRow = ({ label, value, gray }) => (
               <SummaryRow label="Average" value={sheetData[2]?.[1]} gray />
               <SummaryRow label="Total Invoice Amount" value={sheetData[3]?.[1]} />
               <SummaryRow label="Total Penalties" value={sheetData[4]?.[1]} gray />
-              <SummaryRow label="Total Remaining Amount" value={sheetData[5]?.[1]} />
+              <SummaryRow label="Receivable" value={sheetData[5]?.[1]} />
 
             </div>
 
@@ -96,7 +96,7 @@ const SummaryRow = ({ label, value, gray }) => (
               <SummaryRow label="Average" value={sheetData[2]?.[3]} gray />
               <SummaryRow label="Total Invoice Amount" value={sheetData[3]?.[3]} />
               <SummaryRow label="Total Penalties" value={sheetData[4]?.[3]} gray />
-              <SummaryRow label="Total Remaining Amount" value={sheetData[5]?.[3]} />
+              <SummaryRow label="Receivable" value={sheetData[5]?.[3]} />
 
             </div>
           </div>
