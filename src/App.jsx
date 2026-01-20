@@ -81,7 +81,7 @@ const SummaryRow = ({ label, value, gray }) => (
               <SummaryRow label="Average" value={sheetData[2]?.[1]} gray />
               <SummaryRow label="Total Invoice Amount" value={sheetData[3]?.[1]} />
               <SummaryRow label="Total Penalties" value={sheetData[4]?.[1]} gray />
-              <SummaryRow label="Receivable" value={sheetData[5]?.[1]} />
+              <SummaryRow label="Net Receivable" value={sheetData[5]?.[1]} />
 
             </div>
 
